@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  background: rgb(36, 0, 17);
+  background: linear-gradient(90deg, rgba(36, 0, 17, 1) 0%,
+   rgba(121, 9, 9, 1) 64%, 
+   rgb(168, 1, 1) 100%);
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #DBDFAC;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 14px 4px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 4px 4px 14px 4px rgba(0, 0, 0, 0.61);
+  box-shadow: 4px 4px 14px 4px rgba(0, 0, 0, 0.61);
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.apagar {
+  background: none;
+  border: none;
+  color: red;
+  transition-duration: 1s;
+}
+
+.apagar:hover {
+  background-color: #5d5ea0;
+  color: black;
+  border-radius: 5px;
+  margin-top: -5px;
+}
+
+.input_nova_tarefa {
+  width: 350px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.btn_tarefa {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 25px;
+  background-color: #7791af;
+  transition-duration: 1s;
+}
+
+.btn_tarefa:hover {
+  background-color: #5d5ea0;
+}
